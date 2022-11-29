@@ -1,9 +1,10 @@
 *:root {
-    --primary-color: #00356b;
-    --secondary-color: #286dc0;
+    --primary-color: #285430;
+    --secondary-color: #5F8D4E;
     --grey-color: #7e736b;
+    --apricot: #E5D9B6;
     --dark-color: #222;
-    --dark-gray: #4a4a4a;
+    --light-green: #A4BE7B;
 }
 
 * {
@@ -18,7 +19,7 @@ body {
 }
 
 p {
-    font-family: 'Gill Sans','Gill Sans MT',Calibri,Arial,sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', Arial, sans-serif;
 }
 
 .btn {
@@ -42,6 +43,19 @@ p {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.covid-banner {
+    background-color: var(--light-green);
+    padding: 20px 0;
+}
+
+.covid-banner h1 {
+    font-size: 1.2rem;
+}
+
+.covid-banner a {
+    font-size: 1.5rem;
 }
 
 header {
@@ -86,6 +100,7 @@ header .btn-white{
     color: var(--primary-color);
     position: relative;
     height: 50px;
+    margin-right: 10px;
 }
 
 header nav.main {
@@ -94,6 +109,11 @@ header nav.main {
 
 header nav.main .main_nav_item {
     padding: 1rem;
+}
+
+header .logo {
+    color: var(--primary-color);
+    font-size: 4rem;
 }
 
 .main_nav_item {
@@ -173,4 +193,88 @@ header nav.main .main_nav_item {
     text-align: center;
     padding: 20px;
     text-decoration: none;;
+}
+
+.back {
+    background-color: var(--primary-color);
+    width: 100%;
+    padding: 10vh 2px;
+}
+
+.grid {
+    position: relative;
+    z-index: 10;
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    '. one two . . .'
+    '. three four . . .'
+    '. six six seven eight .'
+    '. six six nine ten .';
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: repeat(4, 30vh);
+}
+
+.one {
+    grid-area: one;
+    background-image: url(/images/ashleigh-shea-kFZ2nivVBYI-unsplash.jpg);
+    background-size: cover;
+}
+
+.two {
+    grid-area: two;
+    background-image: url(/images/vegetables-g10a64e8f9_1920.jpg);
+    background-size: cover;
+}
+
+.three {
+    grid-area: three;
+    background-image: url(/images/heather-gill-L5yqGpqQd4I-unsplash.jpg);
+    background-size: cover;
+}
+
+.four {
+    grid-area: four;
+    background-image: url(/images/deborah-rainford-3uJcymbLnYA-unsplash.jpg);
+    background-size: cover;
+}
+
+.five {
+    position: absolute;
+    height: 90vh;
+    width: 60%;
+    margin-left: 40%;
+    margin-top: -15vh;
+    background-image: url(/images/marisa-morton-GunHGc3Xxu8-unsplash.jpg);
+    background-size: cover;
+}
+
+.six {
+    grid-area: six;
+    background-image: url(/images/kiona-lee-e7NPdTlYlz0-unsplash.jpg);
+    background-size: cover;
+}
+
+.seven {
+    grid-area: seven;
+    background-image: url(/images/laura-johnston-_zV74zUnwmc-unsplash.jpg);
+    background-size: cover;
+}
+
+.eight {
+    grid-area: eight;
+    background-image: url(/images/erda-estremera-eUCdBfO381c-unsplash.jpg);
+    background-size: cover;
+}
+
+.nine {
+    grid-area: nine;
+    background-image: url(/images/brian-mcgowan-w46WZBxI_uk-unsplash.jpg);
+    background-size: cover;
+}
+
+.ten {
+    grid-area: ten;
+    background-image: url(/images/char-beck-5eM6sRTCCUc-unsplash.jpg);
+    background-size: cover;
 }
