@@ -522,7 +522,7 @@ header .logo {
     padding-bottom: 30px;
 }
 
-.text:hover {
+.grid .text:hover {
     cursor: pointer;
     transform: translateY(-20px);
     transition: all 0.5s;
