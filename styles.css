@@ -412,7 +412,7 @@ header .logo {
 
 .two {
     grid-area: two;
-    background-image: url(/images/deborah-rainford-3uJcymbLnYA-unsplash.jpg);
+    background-image: url(/images/erda-estremera-eUCdBfO381c-unsplash.jpg);
     background-size: cover;
 }
 
@@ -460,14 +460,14 @@ header .logo {
 
 .seven {
     grid-area: seven;
-    background-image: url(/images/erda-estremera-eUCdBfO381c-unsplash.jpg);
+    background-image: url(/images/deborah-rainford-3uJcymbLnYA-unsplash.jpg);
     background-size: cover;
     position: relative;
 }
 
 .overlay2 {
-    background-color: var(--apricot);
-    opacity: 0.7;
+    background-color: var(--grey-color);
+    opacity: 0.8;
     position: absolute;
     top: 0;
     height: 30vh;
@@ -512,14 +512,33 @@ header .logo {
     text-transform: uppercase;
 }
 
+.five p, .six p {
+    font-size: 1.3rem;
+    line-height: 1.7em;
+}
+
+.five h3, .six h3 {
+    font-size: 4rem;
+    padding-bottom: 30px;
+}
+
 .text:hover {
+    cursor: pointer;
     transform: translateY(-20px);
     transition: all 0.5s;
 }
 
+
+
+.six .text:hover {
+    cursor: default;
+    transform: none;
+}
+
+
 .overlay3 {
-    background-color: var(--secondary-color);
-    opacity: 0.7;
+    background-color: rgb(66, 40, 2);
+    opacity: 0.8;
     position: absolute;
     top: 0;
     height: 30vh;
@@ -550,6 +569,16 @@ header .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.six .btn, .five .btn {
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.six .btn-outline:hover, .five .btn-outline:hover {
+    background-color: var(--primary-color);
 }
 
 
@@ -744,4 +773,10 @@ ul {
     flex-basis: 27%;
     display: flex;
     justify-content: space-between;
+}
+
+.six .border, .five .border {
+    border: none;
+    border-bottom: white 1px solid;
+    width: 10%;
 }
