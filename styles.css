@@ -566,6 +566,12 @@ header .logo {
     justify-content: center;
 }
 
+#target:hover {
+    z-index: 100;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
 .overlay6 {
     background-color: var(--dark-color);
     opacity: 0.7;
