@@ -150,6 +150,7 @@ header nav.secondary a.btn-white{
 header nav.secondary a.btn-white:hover {
     color: var(--primary-color);
     text-decoration: none;
+    background-color: rgba(109, 105, 105, 0.1);
 }
 
 header nav.secondary a.dots:hover {
@@ -332,6 +333,10 @@ header .logo {
     color: var(--primary-color);
 }
 
+.contain {
+    max-width: 1600px;
+}
+
 .back {
     background-color: var(--primary-color);
     width: 100%;
@@ -443,7 +448,7 @@ header .logo {
     height: 90vh;
     width: 59%;
     margin-right: 1%;
-    margin-left: 40%;
+    margin-left: 575px;
     margin-top: -15vh;
     background-image: url(/images/marisa-morton-GunHGc3Xxu8-unsplash.jpg);
     background-size: cover;
@@ -522,10 +527,13 @@ header .logo {
     padding-bottom: 30px;
 }
 
+.grid .text {
+    transition: all 0.5s;
+}
+
 .grid .text:hover {
     cursor: pointer;
     transform: translateY(-20px);
-    transition: all 0.5s;
 }
 
 
@@ -580,6 +588,7 @@ header .logo {
 .six .btn-outline:hover, .five .btn-outline:hover {
     background-color: var(--primary-color);
 }
+
 
 
 
