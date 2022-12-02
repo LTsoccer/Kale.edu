@@ -28,6 +28,7 @@ p {
     text-decoration: none;
     padding:10px;
     margin:1px;
+    transition: all 0.5s;
     text-transform: uppercase;
 }
 
@@ -344,7 +345,7 @@ header .logo {
 }
 
 .grid {
-    max-width: 1400px;
+    max-width: 1450px;
     color: white;
     text-shadow: -1px -1px 2px #000, 1px 1px 2px #000, -1px -1px 1px rgb(0 0 0 / 70%), 1px 1px 1px rgb(0 0 0 / 70%);
     position: relative;
@@ -403,7 +404,7 @@ header .logo {
 .one .btn-outline {
     border: 1px solid white;
     font-size: 1.1rem;
-    padding: 20px;
+    padding: 19px;
     text-align: center;
     background-color: var(--secondary-color);
     color: white;
@@ -572,6 +573,7 @@ header .logo {
     margin-left: 30%;
     margin-top: 65%;
     position: absolute;
+    transition: all 0.5s;
 }
 
 #hidden {
@@ -743,6 +745,10 @@ footer a {
     font-size: 1.4rem;
 }
 
+.footer a {
+    transition: all 0.5s;
+}
+
 .footer a:hover {
     color: var(--grey-color);
 }
@@ -759,6 +765,7 @@ footer a {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    transition: all 0.5s;
 }
 
 .overlay4:hover {
