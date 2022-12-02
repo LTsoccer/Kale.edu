@@ -746,7 +746,7 @@ footer a {
 }
 
 .footer a {
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 
 .footer a:hover {
