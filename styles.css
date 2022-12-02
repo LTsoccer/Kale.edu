@@ -446,10 +446,9 @@ header .logo {
 .five {
     position: absolute;
     height: 90vh;
-    max-width: 60%;
     width: 59%;
     margin-right: 1%;
-    margin-left: 585px;
+    margin-left: 40%;
     margin-top: -15vh;
     background-image: url(/images/marisa-morton-GunHGc3Xxu8-unsplash.jpg);
     background-size: cover;
