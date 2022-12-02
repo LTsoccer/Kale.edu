@@ -344,6 +344,7 @@ header .logo {
 }
 
 .grid {
+    max-width: 1400px;
     color: white;
     text-shadow: -1px -1px 2px #000, 1px 1px 2px #000, -1px -1px 1px rgb(0 0 0 / 70%), 1px 1px 1px rgb(0 0 0 / 70%);
     position: relative;
